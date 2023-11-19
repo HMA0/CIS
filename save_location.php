@@ -5,4 +5,5 @@ $information = "lat:" . $_GET["lat"] . "\nlong:" . $_GET["long"] . "\nip: " . $_
 fwrite($my_file, $information);
 fclose($my_file);
 
+
 ?>
